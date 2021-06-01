@@ -24,6 +24,7 @@ jobs:
     - name: install dependencies
       run: npm install
   lint-fix:
+    needs: [ build ]
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -37,6 +38,7 @@ jobs:
     - name: lint-fix
       run: npm run lint:fix
   lint:
+    needs: [ build ]
     runs-on: ubuntu-latest
     strategy:
       matrix:
