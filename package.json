@@ -1,0 +1,28 @@
+{
+  "name": "node.js-by-andrew-mead",
+  "version": "1.0.0",
+  "description": "😍 Learning Node.js from scratch by Andrew Mead ⚡.",
+  "main": "hello.js",
+  "scripts": {
+    "run:hello": "node hello.js",
+    "run:notes-app": "cd notes-app && node app.js",
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:fix": "./node_modules/.bin/eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityatheoctocatdev/node.js-by-andrew-mead.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityatheoctocatdev/node.js-by-andrew-mead/issues"
+  },
+  "homepage": "https://github.com/adityatheoctocatdev/node.js-by-andrew-mead#readme",
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  }
+}
