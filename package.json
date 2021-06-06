@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adityatheoctocatdev/node.js-by-andrew-mead.git"
+    "url": "git+https://github.com/thesemicolondevs/node.js-by-andrew-mead.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adityatheoctocatdev/node.js-by-andrew-mead/issues"
+    "url": "https://github.com/thesemicolondevs/node.js-by-andrew-mead/issues"
   },
-  "homepage": "https://github.com/adityatheoctocatdev/node.js-by-andrew-mead#readme",
+  "homepage": "https://github.com/thesemicolondevs/node.js-by-andrew-mead#readme",
   "devDependencies": {
     "eslint": "^7.27.0",
     "eslint-config-airbnb-base": "^14.2.1",
