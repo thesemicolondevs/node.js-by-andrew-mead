@@ -11,7 +11,7 @@ module.exports = {
   },
   rules: {
     allowIndentationTabs: 0,
-    "linebreak-style": ["error", "windows"],
+    "linebreak-style": ["error", "unix"],
     quotes: ["error", "double"],
     semi: ["error", "always"],
     "no-console": "off",
