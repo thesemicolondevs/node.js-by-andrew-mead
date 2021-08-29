@@ -9,14 +9,15 @@
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write .",
     "eslint:check": "eslint .",
-    "eslint:fix": "eslint . --fix"
+    "eslint:fix": "eslint . --fix",
+    "husky:prepare": "husky install"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thesemicolondevs/node.js-by-andrew-mead.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "thesemicolondevs",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thesemicolondevs/node.js-by-andrew-mead/issues"
