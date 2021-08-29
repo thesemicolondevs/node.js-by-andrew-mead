@@ -6,6 +6,8 @@
   "scripts": {
     "run:hello": "node hello.js",
     "run:notes-app": "cd notes-app && node app.js",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
     "eslint:check": "eslint .",
     "eslint:fix": "eslint . --fix"
   },
@@ -23,6 +25,7 @@
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.24.2"
+    "eslint-plugin-import": "^2.24.2",
+    "prettier": "2.3.2"
   }
 }
