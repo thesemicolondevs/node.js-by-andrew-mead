@@ -9,14 +9,15 @@
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write .",
     "eslint:check": "eslint .",
-    "eslint:fix": "eslint . --fix"
+    "eslint:fix": "eslint . --fix",
+    "husky:prepare": "husky install"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thesemicolondevs/node.js-by-andrew-mead.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "thesemicolondevs",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thesemicolondevs/node.js-by-andrew-mead/issues"
@@ -26,6 +27,7 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.24.2",
+    "husky": "^7.0.2",
     "prettier": "2.3.2"
   }
 }
