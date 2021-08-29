@@ -6,8 +6,8 @@
   "scripts": {
     "run:hello": "node hello.js",
     "run:notes-app": "cd notes-app && node app.js",
-    "lint": "./node_modules/.bin/eslint .",
-    "lint:fix": "./node_modules/.bin/eslint . --fix"
+    "eslint:check": "eslint .",
+    "eslint:fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
