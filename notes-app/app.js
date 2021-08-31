@@ -19,3 +19,15 @@ console.log(msg);
 
 const greenMsg = chalk.green.inverse.bold("Success!");
 console.log(greenMsg);
+
+const command = process.argv[2];
+
+console.log(process.argv);
+
+if (command === "add") {
+  console.log(chalk.green("Adding note!"));
+} else if (command === "remove") {
+  console.log(chalk.red("Removing note!"));
+} else {
+  console.log(chalk.blueBright("Command not recognized!"));
+}
