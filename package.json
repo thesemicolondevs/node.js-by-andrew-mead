@@ -4,8 +4,8 @@
   "description": "😍 Learning Node.js from scratch by Andrew Mead ⚡.",
   "main": "hello.js",
   "scripts": {
-    "run:hello": "node hello.js",
-    "run:notes-app": "cd notes-app && node app.js",
+    "hello": "node hello.js",
+    "notes-app": "nodemon ./notes-app/app.js",
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write .",
     "eslint:check": "eslint .",
