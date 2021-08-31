@@ -5,7 +5,7 @@
   "main": "hello.js",
   "scripts": {
     "hello": "node hello.js",
-    "notes-app": "cd notes-app && node app.js",
+    "notes-app": "nodemon ./notes-app/app.js",
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write .",
     "eslint:check": "eslint .",
