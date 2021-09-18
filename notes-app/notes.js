@@ -20,6 +20,10 @@ const addNote = (title, body) => {
   }
 };
 
+const removeNote = (title) => {
+  console.log(title);
+};
+
 const saveNotes = (notes) => {
   const dataJSON = JSON.stringify(notes);
 
@@ -37,4 +41,4 @@ const loadNotes = () => {
   }
 };
 
-module.exports = { getNotes, addNote };
+module.exports = { getNotes, addNote, removeNote };
