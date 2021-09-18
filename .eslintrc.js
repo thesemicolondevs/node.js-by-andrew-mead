@@ -22,5 +22,10 @@ module.exports = {
         message: "Unexpected property on console object was called",
       },
     ],
+    "no-use-before-define": [
+      "error",
+      { functions: false, classes: false, variables: false },
+    ],
+    eqeqeq: 0,
   },
 };
