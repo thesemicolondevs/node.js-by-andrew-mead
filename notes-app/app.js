@@ -31,11 +31,37 @@ yargs.version("1.1.0");
 /**
  * @create add command
  */
+
+/**
+ * @author: @adityatheoctocatdev
+ *
+ * @challenge
+ * @description: add a option to yargs
+ * 1. setup a body option for the add command
+ * 2. configure description, make it required, and for it to be a string
+ * 3. log the body value in the handler function
+ * 4. test your work
+ */
 yargs.command({
   command: "add",
   describe: "Add a new note",
-  handler: () => {
-    console.log("Adding a new note!");
+  builder: {
+    title: {
+      describe: "Note title",
+      demandOption: true,
+      type: "string",
+    },
+    body: {
+      describe: "Note body",
+      demandOption: true,
+      type: "string",
+    },
+  },
+  handler: (argv) => {
+    console.log(chalk.blueBright("\nAdding a new note!"));
+    console.log(
+      `Title: ${chalk.green(argv.title)}\nBody: ${chalk.green(argv.body)}`,
+    );
   },
 });
 
@@ -81,3 +107,5 @@ yargs.command({
     console.log("Reading a note!");
   },
 });
+
+yargs.parse();
