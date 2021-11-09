@@ -25,7 +25,7 @@
   "homepage": "https://github.com/thesemicolondevs/node.js-by-andrew-mead#readme",
   "devDependencies": {
     "eslint": "^8.2.0",
-    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.2",
     "husky": "^7.0.4",
     "prettier": "2.4.1"
