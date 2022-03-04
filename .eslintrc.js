@@ -2,7 +2,7 @@ module.exports = {
   env: {
     browser: true,
     commonjs: true,
-    es2021: true,
+    es2022: true,
     node: true,
   },
   extends: ["airbnb-base"],
@@ -14,6 +14,7 @@ module.exports = {
     quotes: ["error", "double"],
     semi: ["error", "always"],
     "no-console": "off",
+    "import/no-unresolved": "off",
     "no-restricted-syntax": [
       "error",
       {
