@@ -24,14 +24,14 @@
   },
   "homepage": "https://github.com/thesemicolondevs/node.js-by-andrew-mead#readme",
   "devDependencies": {
-    "eslint": "8.13.0",
+    "eslint": "8.19.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.26.0",
-    "husky": "7.0.4",
-    "prettier": "2.6.2"
+    "husky": "8.0.1",
+    "prettier": "2.7.1"
   },
   "dependencies": {
     "chalk": "^5.0.0",
-    "yargs": "^17.4.1"
+    "yargs": "^17.5.1"
   }
 }
